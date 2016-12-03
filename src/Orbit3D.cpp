@@ -90,7 +90,7 @@ Angle Orbit3D::E() const {
   }
 
   //Check to make sure we actually found an answer
-  if (i > maxIterations) {
+  if (i >= maxIterations) {
     throw std::runtime_error("Unable to find Eccentric Anomaly");
   }
 
