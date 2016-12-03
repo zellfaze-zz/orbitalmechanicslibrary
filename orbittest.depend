@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1480793783 source:/home/zell/Documents/Code/orbittest/main.cpp
+	<iostream>
+	<string>
+	"Angle.h"
+	"Vector3D.h"
+	"Orbit3D.h"
+
+1480117034 source:/home/zell/Documents/Code/orbittest/src/Angle.cpp
+	"Angle.h"
+
+1480218869 /home/zell/Documents/Code/orbittest/include/Angle.h
+	<math.h>
+
+1480794530 source:/home/zell/Documents/Code/orbittest/src/Orbit3D.cpp
+	"Orbit3D.h"
+
+1480794309 /home/zell/Documents/Code/orbittest/include/Orbit3D.h
+	<stdexcept>
+	"Angle.h"
+	"Vector3D.h"
+	<iostream>
+
+1480213815 source:/home/zell/Documents/Code/orbittest/src/Vector3D.cpp
+	"Vector3D.h"
+
+1480218898 /home/zell/Documents/Code/orbittest/include/Vector3D.h
+	"Angle.h"
+	"Point3D.h"
+	<numeric>
+	<vector>
+	<iostream>
+
+1480199722 source:/home/zell/Documents/Code/orbittest/src/Point3D.cpp
+	"Point3D.h"
+
+1480218885 /home/zell/Documents/Code/orbittest/include/Point3D.h
+
