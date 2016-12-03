@@ -89,6 +89,11 @@ Angle Orbit3D::E() const {
     i++;
   }
 
+  //Check to make sure we actually found an answer
+  if (i > maxIterations) {
+    throw std::runtime_error("This should never happen");
+  }
+
   Angle result;
   result = Angle(EGuess);
   return result;
