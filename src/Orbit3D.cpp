@@ -59,7 +59,11 @@ Angle Orbit3D::f() const {
 }
 
 Angle Orbit3D::E() const {
-  //Needs work
+  //For a circular orbit E==M
+  if (shape() == OrbitalShape::Circle) {
+    return M();
+  }
+
   int maxIterations = 15;
   int decimalPlaces = 10;
 
